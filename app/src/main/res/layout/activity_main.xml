@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="17"
+    tools:context=".MainMenu">
+
+
+    <TextView
+        android:padding="20dp"
+        android:gravity="center"
+        android:text="@string/hello_text"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:id="@+id/hello_text"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2.5"
+    android:orientation="horizontal">
+    <TextView
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:text="@string/explanation"
+        android:layout_width="match_parent"
+        android:id="@+id/explanation"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="EZ file manager"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:longClickable="true"
+        android:onClick="installESFileManager"
+        />
+
+</LinearLayout>
+
+    <Button
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/but_choose"
+        android:id="@+id/but_findCert"
+        android:onClick = "openFileExplorer"
+        android:selectAllOnFocus="true"
+        android:layout_weight="3" />
+
+
+    <TextView
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text=""
+        android:id="@+id/tv_foundCert"
+        android:layout_weight="3"/>
+
+
+    <EditText
+        android:hint="@string/et_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text=""
+        android:id="@+id/et_password"
+        android:enabled="false"
+        android:layout_weight="3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/but_get509cert"
+            android:id="@+id/but_get509cert"
+            android:onClick="get509Cert"
+            android:layout_weight="1"
+            android:enabled="false"/>
+
+        <Button
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/but_getKey"
+            android:id="@+id/but_getKey"
+            android:onClick="getKey"
+            android:layout_weight="1"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
