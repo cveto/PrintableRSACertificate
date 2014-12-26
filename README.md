@@ -11,8 +11,8 @@ Before it is converted to a QR code, it is encrypted with AES-256. Key is derive
 
 End Result:
 X509 Certificate in PEM QR and AES-256 encrypted private key (modulus and exponent only)
-![alt tag](https://lh3.googleusercontent.com/lIlBcjNLu92RdAb1MCFhOD_gVrOIrEgyMsuEoExqUz4wO1Pj7uuhj5UJsuU6hr9MOuSuEw=w1656-h786)![alt tag](https://lh5.googleusercontent.com/9wn2C_JwhRQBJz-MQw_v3nfofP-8RCW35DzrCNxjrA5Ke5HJDrBqqSUweO59y9a-lpmKNA=w1656-h786
-)
+![alt tag](http://i3.photobucket.com/albums/y62/cegu/LupusCertificate_zpsa44a9b41.png)
+![alt tag](http://i3.photobucket.com/albums/y62/cegu/LupusPrivateKey12345_zpsffdc27a1.png)
 
 Testing certificate and key in PKCS12 format: (lupus12345.p12 Password: 12345)
 Compiled APP for installing the APP directly on the phone: (PrintableRSA.apk)
@@ -20,9 +20,7 @@ Compiled APP for installing the APP directly on the phone: (PrintableRSA.apk)
   
 Screenshots:
   Using:
-![alt tag](https://lh4.googleusercontent.com/D3A0qrJTU-qvQ74FS0MtPnTFmdyC_OfWVoJE3Fgr4eZix-CLgMPPOz-1vmY4ILnW-M0K9w=w1656-h786
-)
+![alt tag](http://i3.photobucket.com/albums/y62/cegu/PrintableRSA1_zps1aa1c817.png)
   Printing:
-![alt tag](https://lh6.googleusercontent.com/4Y2gBAVfJhm-jnGs0L_I6Y_jolbxkO-7_k9fOW0g9GQjZtxvcBKlMUNmQlunp6Rri1lHIQ=w1656-h786
-)
+![alt tag](http://i3.photobucket.com/albums/y62/cegu/PrintableRSA2_zps1b445b79.png)
 
