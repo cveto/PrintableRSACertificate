@@ -12,7 +12,7 @@ Before it is converted to a QR code, it is encrypted with AES-256. Key is derive
 End Result:
 X509 Certificate in PEM QR and AES-256 encrypted private key (modulus and exponent only)
 ![alt tag](https://docs.google.com/uc?id=1_-0AASqzS4yeHqWFUkn_PQ62KtYWBHen)
-![alt tag](https://docs.google.com/uc?id=1YBNAorVuFC4hCsHSUlKnG42vH5na3e1H)
+![alt tag](https://docs.google.com/uc?id=1_ZG7Rp1wcR4NZmuwkCzLsGVO7Hg6qKqO)
 
 Testing certificate and key in PKCS12 format: (lupus12345.p12 Password: 12345)
 Compiled APP for installing the APP directly on the phone: (PrintableRSA.apk)
@@ -20,7 +20,7 @@ Compiled APP for installing the APP directly on the phone: (PrintableRSA.apk)
   
 Screenshots:
   Using:
-![alt tag](http://i3.photobucket.com/albums/y62/cegu/PrintableRSA1_zps1aa1c817.png)
+![alt tag](https://docs.google.com/uc?id=1f6lXkCqtopvaQPBRfo7GzAJOSXQ_qXeH)
   Printing:
-![alt tag](http://i3.photobucket.com/albums/y62/cegu/PrintableRSA2_zps1b445b79.png)
+![alt tag](https://docs.google.com/uc?id=1vLFaGnzz_6HPdQk8Yq1K_cXlHWcOWBYo)
 
