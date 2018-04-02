@@ -11,7 +11,7 @@ Before it is converted to a QR code, it is encrypted with AES-256. Key is derive
 
 End Result:
 X509 Certificate in PEM QR and AES-256 encrypted private key (modulus and exponent only)
-![alt tag](http://i3.photobucket.com/albums/y62/cegu/LupusCertificate_zpsa44a9b41.png)
+![alt tag](https://drive.google.com/file/d/1_-0AASqzS4yeHqWFUkn_PQ62KtYWBHen/view)
 ![alt tag](http://i3.photobucket.com/albums/y62/cegu/LupusPrivateKey12345_zpsffdc27a1.png)
 
 Testing certificate and key in PKCS12 format: (lupus12345.p12 Password: 12345)
